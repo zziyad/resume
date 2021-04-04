@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="/styles.css">
+
+    <title>Responsive resume cv</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Ziyad</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link  active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase nav__icon'></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'></i>References
+                        </a>
+                    </li>
+
+                    <!-- <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon' ></i>References
+                            </a>
+                        </li> -->
+
+                </ul>
+
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="/perfil.jpg" alt="" class="home__img">
+                            <h1 class="home__title">SEYKHANOV <b>ZIYAD</b></h1>
+                            <h3 class="home__profession">I.T. Supervisor</h3>
+
+                            <div>
+                                <a download="" href="/assets/pdf/ResumeCv.pdf" class="home__button-movil" id="dw-btn">Download</a>
+                            </div>
+
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home_information">
+                                <i class="bx bx-map home__icon"></i>Av. Sarayeva 14 №3 Baku - Azerbaijan
+                            </span>
+
+                            <span class="home_information">
+                                <i class="bx bx-envelope home__icon"></i> zziyadkhanov@gmail.com
+                            </span>
+
+                            <span class="home_information">
+                                <i class="bx bx-phone home__icon"></i> +99 (450) 303-38-00
+                            </span>
+
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                    </div>
+
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i> @zziyadkhanov
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram-alt social__icon'></i> @zziyadkhanov
+                        </a>
+
+                        <a href="https://www.youtube.com/" target="_blank" class="social__link">
+                            <i class='bx bxl-youtube social__icon'></i> @zziyadkhanov
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile__description">
+                        I am 35 years old, multilingual, experienced individual in the sphere of IT - Technology, Web
+                        Development , and also Tourism, Guest Compliance and Management.<br>
+                        I am highly motivated to share what my personal qualifications and to be useful for the values
+                        the juridical face has.
+                    </p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="educstion__data bd-grid">
+                                <h3 class="education__title">Azerbaijan Technical University</h3>
+                                <span class="education__studies">B.A on Automation and computing techniques</span>
+                                <span class="education__year">September 2001 – June 2005</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+                            <div class="educstion__data bd-grid">
+                                <h3 class="education__title">Веб дизайн студия - Moskow </h3>
+                                <span class="education__studies">Курсы для начинаюших</span>
+                                <span class="education__year"> May 2010 – July 2010</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">languages</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>English
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Russian
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Azerbaijan
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+                      <!--========== INTERESTS ==========-->
+                      <section class="interests section">
+                        <h2 class="section-title">INTERESTS</h2>
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-football interests__icon'></i>
+                                <span class="interests__name"></span>Footbal
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon'></i>
+                                <span class="interests__name"></span>Music
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon'></i>
+                                <span class="interests__name"></span>Read
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon'></i>
+                                <span class="interests__name"></span>Travel
+                            </div>
+                        </div>
+                    </section>
+                <!--========== REFERENCES ==========-->
+                <section class="references section" id="references">
+                    <h2 class="section-title">REFERENCES</h2>
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">GM Assistant (Baku Hospitality Group)</span>
+                            <h3 class="references__title">Mr. Roman Tanriverdiyev</h3>
+                            <ul class="references__contact">
+                                <li>Phone: +99 (450) 348-22-18</li>
+                                <li>Email: romant.tanriverdiyev@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">IT Director (Baku Hospitality Group)</span>
+                            <h3 class="references__title">Mr. Nazim Mehdiyev</h3>
+                            <ul class="references__contact">
+                                <li>Phone: +99 (450) 620-07-62</li>
+                                <li>Email: nazim@mehdiyev.me/ mehdiyev.me </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="resume__right">
+               <!--========== SKILLS  ==========-->
+               <section class="skills section" id="skills">
+                <h2 class="section-title">SKILLS</h2>
+
+
+                <div class="skills__content bd-grid">
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>Linux / Windows administrating <br>(DNS, DHCP, GPO,
+                            ADDS, TCP/IP, NAT, ), Knowledge in Cisco CLI
+                            </div>
+                        </li>
+                        <li class="skills__name">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div> Implemented virtualization servers on over
+                            Linux /Windows servers <br>(VMware, Esxi, Oraclevirtualbox, Hyper-V Boxses(linux only))
+                            </div>
+                        </li>
+                        <li class="skills__name">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>Hardware setup and troubleshooting,<br>
+                            Modernization and repair of PCs,<br> configuring and installing programs of any
+                            complexity
+                            </div>
+                        </li>
+
+                        <li class="skills__name">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>IP telephony setting in PBX,<br>Netup IPTV configuration<br>HikVision security system configuration,<br>Cameras installing
+                                and setting in NVR, DVR</div>
+                        </li>
+
+                    </ul>
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div> Web Development (HTML, CSS, Javascript, VScode)</div>
+                        </li>
+                        <li class="skills__name">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div> Full stack (Nodejs, npm, express ..)</div>
+                        </li>
+                        <li class="skills__name">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div> ReactJS, Redux, EJS</div>
+                        </li>
+                        <li class="skills__name">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div> Database( Postgresql, Mongodb, local
+                            storage(browser))</div>
+                        </li>
+                        <li class="skills__name">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div> Software patterns GRASP, SOLID, MVC, DDD (patern
+                            language UML)</div>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">EXPERIENCE</h2>
+                    <div class="experience__container bd-grid">
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Computer repair service</h3>
+                                <span class="experience__company">From 2009 - 2010 |<b> Байт (Moskow)</b></span>
+                                <p class="experience__description">Upgrading and repairing PC and Laptops<br>
+                                    Setting up office equipment (scanner, printer) and observation chambers.<br>
+                                    Connecting and setting routers, modems</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Computer repair service</h3>
+                                <span class="experience__company">From 20010 - 2013 |<b> HTC (Moskow)</b></span>
+                                <p class="experience__description">Upgrading and repairing PC and Laptops
+                                    <br>Setting up office equipment (scanner, printer) and observation chambers.
+                                    <br>Connecting and setting routers, modems
+                                    <br>Administration line on Windows / linux</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Concierge</h3>
+                                <span class="experience__company">From 2014 - 2017 |<b> HILTON 5 Star
+                                        Hotel(Baku)</b></span>
+                                <p class="experience__description"> Develops a strong knowledge of the hotel's
+                                    facilities and services and of the surrounding community.
+                                    <br> Provides guests with information about attractions, facilities,
+                                    services, and activities in or outside the property. Makes guest
+                                    reservations for air or other forms of transportation when requested.
+                                    <br> Project a professional manner with an emphasis on hospitality and
+                                    <br> Guest service.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Guest Service Agent </h3>
+                                <span class="experience__company">From 2014 - 2017 | <b>HILTON 5 Star
+                                        Hotel(Baku)</b></span>
+                                <p class="experience__description"> 
+                                    <br> Give a warm welcome and check in guests taking into account the
+                                    established SOPs.
+                                    <br> Give a warm welcome and check in guests taking into account the
+                                    established SOPs.
+                                    <br> Check out of departing guest in accordance with the established
+                                    standards.
+                                    <br> Sell rooms to walk-in guests and be responsible for all pro-active and
+                                    day-to-day facilities issues.
+                                    <br> Corporate with colleagues from all departments, in particular
+                                    Housekeeping, Accounting and Reservation.
+                                    <br> Ensure that the Guest Service Desk is manned, operationally prepared
+                                    and stocked at all times in order to be available for guest as a point of
+                                    contact.
+                                    <br> Maintain the privacy of all guests by ensuring that no details of the
+                                    guests are disclosed.
+                                    <br>Demonstrate a complete understanding of the hotel’s policies and
+                                    procedures and service standards and have full knowledge of the hotel
+                                    facilities and happenings.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Guest Service Agent</h3>
+                                <span class="experience__company">From 2017 - 2019 |<b> Boutique 19 Hotel –
+                                        Pre-opening(Baku) </b></span>
+                                <p class="experience__description"> Offer consistently professional, friendly,
+                                    warm and engaging service.
+                                    <br> Give a warm welcome and check in guests taking into account the
+                                    established SOPs.
+                                    <br> Check out of departing guest in accordance with the established
+                                    standards.
+                                    <br> Sell rooms to walk-in guests and be responsible for all pro-active and
+                                    day-to-day facilities issues.
+                                    <br> Corporate with colleagues from all departments, in particular
+                                    Housekeeping, Accounting and Reservation
+                                    <br> Ensure that the Guest Service Desk is manned, operationally prepared
+                                    and stocked at all times in order to be available for guests as a point of
+                                    contact.
+                                    <br> Maintain the privacy of all guests by ensuring that no details of the
+                                    guests are disclosed.
+                                    <br> Demonstrate a complete understanding of the hotel’s policies and
+                                    procedures and service standards and have full knowledge of the hotel
+                                    facilities and happenings.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">IT supervisor</h3>
+                                <span class="experience__company">From 2019 - Present | <b>Boutique 19 Hotel –
+                                        Pre-opening(Baku)</b></span>
+                                <p class="experience__description"> Strong working knowledge of either Networks,
+                                    Hardware, or Software development
+                                    <br>Assists in the development of project work break down structures and detailed
+                                    plans
+                                    <br>Evaluates moderately complex technology infrastructure issues and provides
+                                    evaluation to senior staff members and/or management
+                                    <br>Supervises line staff. Assigns work, monitors work quality and reviews output
+                                    <br>Provides input for the development of service progress, trend, issue, and
+                                    project related departmental reports
+                                    <br>Assists in recommending and providing tactical technology solutions to ensure
+                                    project success
+                                    <br>Strong Project Management background.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <!-- <section class="certificate section" id="certificates">
+                        
+                    </section> -->
+
+
+
+
+ 
+
+
+
+                
+
+
+          
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="/main.js"></script>
+</body>
+
+</html>
